@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
+        "jsx": "react",
         "strict": true
     },
-    "extends": "expo/tsconfig.base"
+    "extends": "expo/tsconfig.base",
+    "files": [
+        "./src/global/styles/styled.d.ts"
+    ]
 }
